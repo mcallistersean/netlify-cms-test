@@ -26,7 +26,7 @@ Metalsmith(__dirname)
         engine: "handlebars",
         default: "layout.html"
     }))
-    .use(watch())
+    // .use(watch())
     .build((err)=> {
         if (err) {
             console.error(err);
