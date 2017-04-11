@@ -1,5 +1,6 @@
+---
 title: "The second post"
-----
+---
 
 # H1
 
