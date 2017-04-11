@@ -10,9 +10,9 @@ Metalsmith(__dirname)
     .destination('build')
     .clean(true)
     .metadata({
-        title: "My Static Site & Blog",
-        description: "It's about saying »Hello« to the World.",
-        generator: "Metalsmith",
+        title: "Simple Netlify-CMS Example Site",
+        description: "Deployed automatically ...",
+        generator: "Metalsmith + Netlify",
         url: "http://www.metalsmith.io/",
     })
     .use(markdown({
