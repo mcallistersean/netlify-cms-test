@@ -24,7 +24,8 @@ Metalsmith(__dirname)
     }))
     .use(layouts({
         engine: "handlebars",
-        default: "layout.html"
+        default: "layout.html",
+        pattern: ["**/*.html", "!admin/index.html"]
     }))
     // .use(watch())
     .build((err)=> {
